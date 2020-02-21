@@ -3,7 +3,9 @@
 A re-designed website for RIT's School of Information that uses AJAX to fetch data from both a given proxy file and an internally customized API; and loads page content dynamically with jQuery (Note. The Javascript source code is still in development and requires additional refactoring).
 
 ### Major Web Design Considerations:
+* Readability
 * Compliance with RIT's latest typography and font choice (Helvetica Neue).
+* Scalability
 * Mobile friendly 
 * Transparent look and feel
 
