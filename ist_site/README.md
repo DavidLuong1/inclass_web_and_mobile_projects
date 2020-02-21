@@ -1,6 +1,6 @@
 # ist_site
 
-A re-designed website for RIT's School of Information that uses AJAX to fetch data from both a given proxy file and an internally customized API; and loads page content dynamically with jQuery (Note. The Javascript source code is still in development and requires additional refactoring).
+A re-designed website for RIT's School of Information that uses AJAX to fetch data from both a given proxy file and an internally customized API; and loads page content dynamically with jQuery and at least two different jQuery plugins (Note. The Javascript source code - [a relative link](assets/js/script.js) - is still in development and requires additional refactoring).
 
 ### Major Web Design Considerations:
 * Readability
