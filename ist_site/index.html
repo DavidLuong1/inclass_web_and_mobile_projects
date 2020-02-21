@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+    <meta name="description" content="Remake of RIT's School of Information website">
+    <meta name="keywords" content="">
+    <meta name="author" content="David Luong|IT Student">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <title>School of Information | RIT</title>
+
+    <link rel="icon" href="./assets/img/rit_logo.png" type="image/png">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="./assets/css/featherlight.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+  <body class="page-body">
+    <header class="page-elem page-header">
+      <nav>
+        <ul id="header">
+          <li class="header-items" id="banner"><a href="./index.html"><img src="./assets/img/ist_logo.png" alt="RIT Logo" id="logo" /></a></li>
+          <li class="header-items"><a href="#degrees">DEGREES</a></li>
+          <li class="header-items"><a href="#minors">MINORS</a></li>
+          <li class="header-items"><a href="#employment">EMPLOYMENT</a></li>
+          <li class="header-items"><a href="#people">PEOPLE</a></li>
+          <li class="header-items"><a href="#research">RESEARCH</a></li>
+          <li class="header-items"><a href="#resources">RESOURCES</a></li>
+          <li class="header-items"><a href="#news">NEWS</a></li>
+          <li class="header-items"><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="page-elem page-content">
+      <section class="page-sections" id="cover">
+        <h1 id="deptName"><span>INFORMATION SCIENCES</span> & <span>TECHNOLOGIES</span> @ RIT</h1>
+      </section>
+      <section class="page-sections" id="degrees">
+
+        <div id="degrees-container"><br><br><br><br>
+          <h2>Our Degrees</h2><br>
+          <ul id="degrees-tab-container" class="tab-container">
+            <li class="tab undergrad-tab"><button id="current" onclick="setCurrentTab('undergraduate-cell', this, '#EC644B', '#fff')">Undergraduate Degrees</button></li>
+            <li class="tab grad-tab"><button onclick="setCurrentTab('graduate-cell', this, '#EC644B', '#fff')">Graduate Degrees</button></li>
+          </ul>
+
+          <!-- WILL REMOVE ONCE DYNAMICALLY RENDERED IN 'script.js' -->
+          <div class="content-container" id="degrees-content-container">
+            <div class="section-content" id="degrees-content">
+
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+      <section class="page-sections" id="minors"><br><br><br><br>
+        <!-- WILL REMOVE ONCE DYNAMICALLY RENDERED IN 'script.js' -->
+        <div class="content-container" id="minors-content-container">
+          <div class="section-content" id="minors-content">
+<!--
+            <div class="minors-content-cell">
+              <i>minor #1</i>
+            </div>
+            <div class="minors-content-cell">
+              <i>minor #2</i>
+            </div>
+            <div class="minors-content-cell">
+              <i>minor #3</i>
+            </div>
+            <div class="minors-content-cell">
+              <i>minor #4</i>
+            </div>
+            <div class="minors-content-cell">
+              <i>minor #5</i>
+            </div>
+            <div class="minors-content-cell">
+              <i>minor #6</i>
+            </div>
+            <div class="minors-content-cell">
+              <i>minor #7</i>
+            </div>
+            <div class="minors-content-cell">
+              <i>minor #8</i>
+            </div>-->
+          </div>
+        </div>
+
+      </section>
+      <section class="page-sections" id="employment"><br><br><br><br>
+        <ul id="employment-tab-container" class="tab-container">
+          <li class="tab coop-tab"><button id="current" onclick="setCurrentTab('undergraduate-cell', this, '#EC644B', '#fff')"></button></li>
+          <li class="tab employment-tab"><button onclick="setCurrentTab('graduate-cell', this, '#EC644B', '#fff')"></button></li>
+        </ul>
+
+        <!-- WILL REMOVE ONCE DYNAMICALLY RENDERED IN 'script.js' -->
+        <div class="content-container" id="employment-content-container">
+          <div class="section-content" id="employment-content">
+
+          </div>
+        </div>
+
+      </section>
+      <section class="page-sections" id="people"><br><br><br><br>
+        <ul id="people-tab-container" class="tab-container">
+          <li class="tab faculty-tab"><button id="current" onclick="setCurrentTab('undergraduate-cell', this, '#EC644B', '#fff')">Faculty</button></li>
+          <li class="tab staff-tab"><button onclick="setCurrentTab('graduate-cell', this, '#EC644B', '#fff')">Staff</button></li>
+        </ul>
+
+      </section>
+      <section class="page-sections" id="research"><br><br><br><br>
+        <ul id="research-tab-container" class="tab-container">
+          <li class="tab faculty-tab"><button id="current" onclick="setCurrentTab('undergraduate-cell', this, '#EC644B', '#fff')">By Interest Area</button></li>
+          <li class="tab staff-tab"><button onclick="setCurrentTab('graduate-cell', this, '#EC644B', '#fff')">By Faculty</button></li>
+        </ul>
+
+      </section>
+      <!-- <section class="page-sections" id="resources"><br><br><br><br></section> -->
+      <!-- <section class="page-sections" id="news"><br><br><br><br></section> -->
+    </main>
+    <!-- <aside class="page-elem page-left">LEFT PANEL</aside> -->
+    <!-- <aside class="page-elem page-right">RIGHT PANEL</aside> -->
+    <footer class="page-elem page-footer" id="contact"></footer>
+
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script src="./assets/js/featherlight.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
