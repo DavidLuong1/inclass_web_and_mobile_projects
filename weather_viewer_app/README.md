@@ -1,4 +1,4 @@
-# WeatherViewerApp
+# weather_viewer_app
 
 A customized Android app that's built with Android Studio and Kotlin. 
 
